@@ -2,39 +2,93 @@
   "pack": {
     "description": "Fullbright for Minecraft 1.17 - 26.3",
     "pack_format": 15,
-    "supported_formats": { "min_inclusive": 7, "max_inclusive": 97 },
+    "supported_formats": {
+      "min_inclusive": 7,
+      "max_inclusive": 97
+    },
     "min_format": 7,
     "max_format": 97
   },
   "overlays": {
     "entries": [
       {
+        "directory": "overlay_1_20_5-1_21_1",
+        "formats": {
+          "min_inclusive": 32,
+          "max_inclusive": 34
+        },
+        "min_format": 32,
+        "max_format": 34
+      },
+      {
+        "directory": "overlay_1_21_2-1_21_5",
+        "formats": {
+          "min_inclusive": 42,
+          "max_inclusive": 55
+        },
+        "min_format": 42,
+        "max_format": 55
+      },
+      {
         "directory": "lightmap_1_21_2-26_2",
-        "formats": { "min_inclusive": 42, "max_inclusive": 88 },
+        "formats": {
+          "min_inclusive": 42,
+          "max_inclusive": 88
+        },
         "min_format": 42,
         "max_format": 88
       },
       {
-        "directory": "vanilla_light_1_21_6-1_21_8",
-        "formats": { "min_inclusive": 63, "max_inclusive": 64 },
+        "directory": "overlay_1_21_6-1_21_8",
+        "formats": {
+          "min_inclusive": 63,
+          "max_inclusive": 64
+        },
         "min_format": 63,
         "max_format": 64
       },
       {
-        "directory": "vanilla_light_1_21_9-26_2",
-        "formats": { "min_inclusive": 69, "max_inclusive": 88 },
+        "directory": "overlay_1_21_9-1_21_11",
+        "formats": {
+          "min_inclusive": 69,
+          "max_inclusive": 75
+        },
+        "min_format": 69,
+        "max_format": 75
+      },
+      {
+        "directory": "overlay_1_21_9-26_2",
+        "formats": {
+          "min_inclusive": 69,
+          "max_inclusive": 88
+        },
         "min_format": 69,
         "max_format": 88
       },
       {
+        "directory": "overlay_26_1-26_2",
+        "formats": {
+          "min_inclusive": 84,
+          "max_inclusive": 88
+        },
+        "min_format": 84,
+        "max_format": 88
+      },
+      {
         "directory": "lightmap_26_3",
-        "formats": { "min_inclusive": 97, "max_inclusive": 97 },
+        "formats": {
+          "min_inclusive": 97,
+          "max_inclusive": 97
+        },
         "min_format": 97,
         "max_format": 97
       },
       {
-        "directory": "vanilla_light_26_3",
-        "formats": { "min_inclusive": 97, "max_inclusive": 97 },
+        "directory": "overlay_26_3",
+        "formats": {
+          "min_inclusive": 97,
+          "max_inclusive": 97
+        },
         "min_format": 97,
         "max_format": 97
       }

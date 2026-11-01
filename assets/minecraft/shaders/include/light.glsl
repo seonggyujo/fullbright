@@ -1,6 +1,5 @@
 #version 150
-// Fullbright for 1.17-1.21.5: block shaders read the lightmap through minecraft_sample_lightmap,
-// so it always returns the brightest lightmap cell (block and sky light 15). Rest is vanilla 1.17.
+// fullbright: vanilla 1.17 include/light.glsl, used on 1.17-1.20.4. Lightmap reads pinned to the brightest cell.
 
 #define MINECRAFT_LIGHT_POWER   (0.6)
 #define MINECRAFT_AMBIENT_LIGHT (0.4)
