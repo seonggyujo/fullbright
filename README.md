@@ -3,6 +3,10 @@
 A vanilla resource pack that removes darkness: caves, nights and the Nether render at full brightness.
 One zip covers **Minecraft Java 1.17 to 26.3**. No mods, no OptiFine, no gamma hacks in `options.txt`.
 
+| Vanilla | With Fullbright |
+|:---:|:---:|
+| ![A dark cave in vanilla Minecraft](docs/before.jpg) | ![The same cave with Fullbright](docs/after.jpg) |
+
 ## Supported versions
 
 | Minecraft        | What becomes fully bright                                           |
