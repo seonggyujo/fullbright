@@ -1,0 +1,43 @@
+{
+  "pack": {
+    "description": "Fullbright for Minecraft 1.17 - 26.3",
+    "pack_format": 15,
+    "supported_formats": { "min_inclusive": 7, "max_inclusive": 97 },
+    "min_format": 7,
+    "max_format": 97
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "lightmap_1_21_2-26_2",
+        "formats": { "min_inclusive": 42, "max_inclusive": 88 },
+        "min_format": 42,
+        "max_format": 88
+      },
+      {
+        "directory": "vanilla_light_1_21_6-1_21_8",
+        "formats": { "min_inclusive": 63, "max_inclusive": 64 },
+        "min_format": 63,
+        "max_format": 64
+      },
+      {
+        "directory": "vanilla_light_1_21_9-26_2",
+        "formats": { "min_inclusive": 69, "max_inclusive": 88 },
+        "min_format": 69,
+        "max_format": 88
+      },
+      {
+        "directory": "lightmap_26_3",
+        "formats": { "min_inclusive": 97, "max_inclusive": 97 },
+        "min_format": 97,
+        "max_format": 97
+      },
+      {
+        "directory": "vanilla_light_26_3",
+        "formats": { "min_inclusive": 97, "max_inclusive": 97 },
+        "min_format": 97,
+        "max_format": 97
+      }
+    ]
+  }
+}
